@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :jobs
-  root 'jobs/index'
+  root 'jobs#index'
   
 end
